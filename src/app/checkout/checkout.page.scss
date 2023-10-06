@@ -1,0 +1,122 @@
+ion-content {
+  .main-event-card {
+    margin-bottom: 4rem;
+  }
+
+  ion-card {
+    .image-event {
+      width: 100%;
+      height: calc(100vh - 65vh);
+      object-fit: cover;
+    }
+    ion-card-header {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      color: var(--ion-color-medium-shade);
+
+      ion-chip {
+        background-color: var(--ion-color-secondary-tint);
+        padding: 0 1rem;
+        color: var(--ion-color-dark);
+      }
+
+    }
+    ion-card-title {
+      color: white;
+    }
+      .gray-text {
+        color: var(--ion-color-medium-shade)
+      }
+
+    ion-card-content {
+      // position: relative;
+
+      .calendario {
+        display: flex;
+        flex-direction: row;
+
+        .calendario-day-month {
+          margin-right: 1rem;
+        }
+        .calendario-time-icon {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          width: 90%;
+          transform: translateY(0); //se retirar esta linha fica desalinhado
+
+          ion-icon {
+            transform: scale(0.8);
+          }
+        }
+      }
+
+      .about {
+        .description {
+          display: flex;
+          justify-content: space-between;
+          margin-top: 2rem;
+          margin-bottom: 0;
+
+          div {
+            display: flex;
+          }
+        }
+      }
+
+      .bullet_points {
+        display: flex;
+        flex-direction: row;
+        gap: .5rem;
+        padding-left: 1rem;
+        // align-self: baseline;
+        // transform: translateY(-20%);
+
+        ion-icon {
+          transform: scale(1.25);
+        }
+      }
+
+    }
+  }
+}
+
+.info-gradient {
+  color: white;
+  margin-top: -90px;
+  position: relative;
+  background-image: linear-gradient(to top, rgb(0, 0, 0) 85%, rgba(0, 0, 0, 0));
+
+  .card-header {
+    padding-top: 2rem;
+    background-image: none;
+
+  }
+
+  div > * {
+    margin-bottom: .4rem;
+  }
+}
+
+
+.btn-div_blur {
+  position: fixed;
+  // background-image: linear-gradient(to top, rgba(0, 0, 0, .6) 85%, rgba(0, 0, 0, .2));
+  background-color: rgba(0, 0, 0, 0);
+  bottom: -12px;
+  backdrop-filter: blur(4px);
+  width: 100%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  // ion-button {
+  //   position: absolute;
+  //   top: 50%;
+  //   left: 50%;
+  //   transform: translate(-50%, -50%);
+  // }
+}

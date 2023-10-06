@@ -1,0 +1,71 @@
+ion-card {
+  background-color: var(--ion-color-medium-tint);
+}
+
+hr {
+  border: 2px black dashed;
+  height: 0;
+}
+
+.img-padding {
+  padding: 1.25rem;
+
+  img {
+    border-radius: .75rem;
+  }
+}
+
+
+
+.name-seat, .date-time {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+
+.texto-inferior {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: black;
+}
+
+  .barcode-image {
+      margin: 0 auto;
+      width: fit-content;
+      padding-top: 1rem;
+  }
+
+  .info {
+    position: relative;
+
+    .circulo-bilhete {
+      position: absolute;
+      background-color: white;
+      height: 2rem;
+      width: 2rem;
+      border-radius: 1rem;
+    }
+
+    .topo-direita {
+      left: -35px;
+      top: -45px
+    }
+
+    .topo-esquerda {
+      right: -35px;
+      top: -45px
+    }
+
+    .base-esquerda {
+      bottom: -27px;
+      left: -35px
+    }
+
+   .base-direita {
+      bottom: -27px;
+      right: -35px
+    }
+  }
+
+

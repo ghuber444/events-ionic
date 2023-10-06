@@ -1,0 +1,82 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>checkout</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-card class="main-event-card">
+    <img alt="Silhouette of mountains" class="image-event" src="{{ evento?.image }}" />
+    <div class="info-gradient">
+      <ion-card-header>
+        <div class="card-header">
+          <ion-card-title>{{ evento?.title }}</ion-card-title>
+          <ion-card-subtitle class="gray-text">{{ evento?.subtitle }}: {{ evento?.location }}</ion-card-subtitle>
+        </div>
+        <div class="card-header">
+          <ion-chip>{{ evento?.price }}$</ion-chip>
+        </div>
+      </ion-card-header>
+
+      <ion-card-content>
+        <div class="calendario">
+          <div class="calendario-day-month">
+            <p class="">{{ evento?.day }}</p>
+            <p class="gray-text">{{ evento?.month}}</p>
+          </div>
+          <div class="calendario-time-icon">
+            <div>
+              <p class="">{{ evento?.dayOfWeek}}</p>
+              <p class="gray-text">10:00 PM - 12:00 PM</p>
+            </div>
+            <div >
+              <ion-icon name="today-outline" size="large"></ion-icon>
+            </div>
+          </div>
+        </div>
+        <div class="about">
+          <p class="">About this event: <span class="gray-text">{{ evento?.about }}</span></p>
+          <div class="description" >
+            <p class="">Description:</p>
+            <div class="">
+              <span class="">&#11088;</span><p>4,8</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="description-bullet_points" >
+          <div class="bullet_points" >
+            <ion-icon name="checkmark-circle" color="secondary"></ion-icon>
+            <p class="self-center" id="description">{{ evento?.description[0] }} </p>
+          </div>
+          <!-- *ngFor="let description of descriptions" -->
+          <div class="bullet_points">
+            <ion-icon name="checkmark-circle" color="secondary"></ion-icon>
+            <p class="self-center" id="description">{{ evento?.description[1] }} </p>
+          </div>
+
+          <div class="bullet_points">
+            <ion-icon name="checkmark-circle" color="secondary"></ion-icon>
+            <p class="self-center" id="description">{{ evento?.description[2] }} </p>
+          </div>
+
+          <div class="bullet_points">
+            <ion-icon name="checkmark-circle" color="secondary"></ion-icon>
+            <p class="self-center" id="description">{{ evento?.description[3] }} </p>
+          </div>
+
+        </div>
+      </ion-card-content>
+    </div>
+  </ion-card>
+
+  <div class="btn-div_blur">
+    <ion-button routerLink="event-details/{{ evento?.id}}" shape="round">Get a ticket</ion-button>
+  </div>
+</ion-content>
+
+<!-- <ion-footer [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Footer</ion-title>
+  </ion-toolbar>
+</ion-footer> -->

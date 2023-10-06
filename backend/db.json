@@ -1,0 +1,61 @@
+{
+  "eventos":[
+    {
+      "id": 1,
+      "month": "Dezembro",
+      "title": "Festa",
+      "subtitle": "Concerto",
+      "day": 30,
+      "dayOfWeek": "Terça-feira",
+      "price": 25,
+      "about": "A tão aguardada festa está se aproximando rapidamente, com música ao vivo, deliciosas iguarias, e muita diversão. Amigos e família se reunirão para celebrar em um ambiente de alegria e harmonia.",
+      "description": [
+        "Festa próxima com música ao vivo e boa comida.",
+        "Reunião de amigos e familiares.",
+        "Celebração em um ambiente alegre.",
+        "Antecipação de momentos memoráveis e diversão."
+      ],
+      "seat": "Lugar nº6",
+      "location": "Paris, França",
+      "image": "https://images.pexels.com/photos/3172566/pexels-photo-3172566.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": 2,
+      "month": "Janeiro",
+      "title": "Palestra",
+      "subtitle": "Palestra",
+      "day": 1,
+      "dayOfWeek": "Sábado",
+      "price": "Grátis",
+      "about": "A aguardada palestra está programada para o próximo mês, prometendo insights valiosos e oportunidades de aprendizado para todos os participantes.",
+      "description": [
+        "Palestra inovadora programada para o próximo mês.",
+        "Temas atuais e palestrante cativante.",
+        "Oportunidade de aprendizado e novos insights para os participantes."
+      ],
+      "seat": "Lugar nº32",
+      "location": "Lisboa, Portugal",
+      "image": "https://images.pexels.com/photos/2774556/pexels-photo-2774556.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": 3,
+      "month": "Março",
+      "title": "Concerto",
+      "subtitle": "Concerto",
+      "day": 12,
+      "dayOfWeek": "Sexta-feira",
+      "price": 10,
+      "about": "O aguardado concerto está marcado para o próximo mês, trazendo músicos talentosos e um repertório emocionante que certamente encantará a audiência.",
+      "description": [
+        "Concerto emocionante com músicos talentosos.",
+        "Repertório diversificado e envolvente.",
+        "Aplausos calorosos da plateia.",
+        "Atmosfera contagiante de celebração musical.",
+        "Memórias inesquecíveis a serem criadas."
+      ],
+      "seat": "Lugar nº110",
+      "location": "Porto, Portugal",
+      "image": "https://images.pexels.com/photos/976863/pexels-photo-976863.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    }
+  ]
+}
